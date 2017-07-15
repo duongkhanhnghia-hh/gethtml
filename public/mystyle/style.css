@@ -1,0 +1,63 @@
+.colors:hover .text_color{  
+    display: block;    
+}
+
+.colors:hover {
+    width: 25%;
+    height: 40%;
+}
+
+.colors {
+    transition: all. 3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.text_color {
+    top: 40%;left: 30%; text-align:center; position:absolute; z-index: 1; display:none
+}
+
+#header {
+    display: inline-block;
+    width: 100%;    
+}
+
+#header-left {    
+    float: left;
+    width: 40%
+}
+
+#header-right {
+    display: inline;
+    float: right;    
+    width: 60%;
+}
+
+.menu {
+    float: left;
+    margin-right: 15%;
+    display: block;
+    position: relative;    
+}
+
+.list_menu {
+    display: none;
+}
+
+.menu:hover .list_menu{
+    display: inline
+    ;
+}
+
+#content{    
+    margin-top: 10px;
+}
+
+#header-detail {
+    height: 75%;
+    display: inline-block;
+    width: 100%;
+    background-image:url(/image/banner-shape.png);
+}
