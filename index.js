@@ -21,6 +21,9 @@ connection.connect((err) => {
 	console.log("Connected Mysql!");
 });
 
+app.get('/colors',function(req, res){
+	res.render("colors");
+});
 /*app.get("/", function(req, res) {
 	request("https://www.canva.com/colors/", function(error, response, body) {
 		if (error) throw error;
