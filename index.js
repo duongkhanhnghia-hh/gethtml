@@ -22,7 +22,6 @@ app.get("/", (req, res) => {
 	var sql = "SELECT * FROM colors";
 	connection.query(sql, (err, results) => {		
 		if (err) throw err;
-		console.log(results);
 		res.render("home", {"data":results});		
 	});	
 });

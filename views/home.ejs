@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css"> 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">    
     <link rel="stylesheet" href="mystyle/style.css">  
+	<link rel="stylesheet" type="text/css" href="/css/trans.css">
 </head>
 <body>
 
 <script type="text/javascript">
-	$(document).ready(() => {		
-		console.log(<%=data.length%>);				
+	$(document).ready(() => {						
 		<%for (var i = 0; i < data.length; i++) {		%>					
-			$("#content").append("<a href='<%=data[i].color_name%>' ><div class='colors' style='position:relative; display: block; color: white; width:20%; height:300px; background-color: <%=data[i].color_hex%>; float:left'><div style='position:relative; background-color:<%=data[i].color_name%>; z-index:2'></div> <div class='text_color'> <span>Read more about</span><br><strong><%=data[i].color_name%></strong> </div> </div></a>"); 
+			$("#content").append("<a href='<%=data[i].color_name%>' ><div class='colors' id='trans' style='position:relative; display: block; color: white; width:20%; height:260px; background-color: <%=data[i].color_hex%>; float:left;'><div style='position:relative; background-color:<%=data[i].color_name%>; z-index:2;'></div> <div class='text_color'> <span>Read more about</span><br><strong><%=data[i].color_name%></strong> </div> </div></a>"); 
 
 		<%}%>
 	});	
@@ -73,9 +73,16 @@
 
 		</div>
 	</div>
+	<center> 
+		<img src="image/color-paint.svg" id="color-paint">
+		<h1 id="h1-color-paint">Everything you need to know about 
+			<strong id="strong-color-paint-weigh">colors</strong>
+		</h1>
+	</center>
 	<div id="content">
 		
 	</div>
 	<div id="footer"></div>
+	
 </body>
 </html>

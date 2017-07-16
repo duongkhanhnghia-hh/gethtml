@@ -1,0 +1,23 @@
+#trans:hover{
+	transform: scale(1.05);
+	z-index: 2;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#color-paint{
+	margin-top: 1%;
+	width: 150px;
+	height: 150px;
+}
+
+#h1-color-paint{
+	margin-top: 1%;
+	max-width: 450px;
+	font-weight: 200;
+}
+#strong-color-paint-weigh{
+	font-weight: 500;
+	display: inline;
+}
+
+
