@@ -11,13 +11,49 @@
 }
 
 #h1-color-paint{
+	color: #3f4652;
 	margin-top: 1%;
 	max-width: 450px;
 	font-weight: 200;
+	margin-bottom: 30px;
 }
 #strong-color-paint-weigh{
 	font-weight: 500;
 	display: inline;
+}
+
+#txtsearch:focus, input:focus{
+    outline: none;
+}
+#txtsearch{
+	margin-top: 5px;
+	width: 350px;
+	height: 40px;
+    border: none;
+   	color: #3f4652;
+}
+#btnsearch{
+    border: none; 
+    background-color: transparent;
+}
+#btnsearch:focus{
+    outline: none;
+}
+#formsearch{
+	width: 450px;
+	height: 50px;
+	border: solid;
+	border-width: 0.3px;
+	border-color: #FFA8F4;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 20px;
+}
+#linkaftersearch{
+	background-image:  url(//wiki.canva.com/wp-content/themes/canvawiki/stylesheets/../img/svg-mixin/svg/combo-icon.svg);
+	background-size: 20px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	color: #b5b9bd;
 }
 
 
