@@ -5,7 +5,7 @@
 }
 
 #color-paint{
-	margin-top: 1%;
+	margin-top: 3%;
 	width: 150px;
 	height: 150px;
 }
@@ -27,8 +27,8 @@
 }
 #txtsearch{
 	margin-top: 5px;
-	width: 350px;
-	height: 40px;
+	width: 430px;
+	height: 55px;
     border: none;
    	color: #3f4652;
 }
@@ -40,8 +40,8 @@
     outline: none;
 }
 #formsearch{
-	width: 450px;
-	height: 50px;
+	width: 500px;
+	height: 65px;
 	border: solid;
 	border-width: 0.3px;
 	border-color: #FFA8F4;
