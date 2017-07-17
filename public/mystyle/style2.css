@@ -63,6 +63,8 @@
 
 #header-content {
     display: inline-block;
+    width: 100%;
+    position: absolute;
 }
 
 #banner {    
@@ -70,5 +72,144 @@
 }
 
 #header-content-left {
-    margin-left: 75px;    
+    float: left;
+    margin-left: 75px;        
+}
+
+#header-content-right {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #74f24b;
+    width: 35%;
+    float: right;
+    border: 1px solid yellow;
+    height: 800px;
+    margin-right: 100px;
+}
+
+#above {
+    width: 100%;
+    background-color: red;
+    height: 300px;
+    padding-top: 128px;
+    text-align: center;
+}
+
+
+#under ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 25px;
+}
+
+#Mono ul li {
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;    
+}
+
+#Mono ul {
+    margin-left: 20px;    
+    text-align: center;
+}
+
+._block {
+    display: inline-block;    
+    text-align: center;
+    width: 100%;
+}
+
+#one {
+    background-color: #B5EECB;    
+}
+#two {
+    background-color: #8FE5B0;
+}
+#three {
+    background-color: #6ADD96;
+}
+#four {
+    background-color: #44D47C;
+}
+#five {
+    background-color: #2CBF65;
+}
+#six {
+    background-color: #239951;
+}
+#seven {
+    background-color: #1B743D;
+}
+
+#under {
+    padding-top: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 600px;
+
+}
+
+#combinations {
+    margin-top: 30px;
+}
+
+#butterfly-kisses ul {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#butterfly-kisses ul li {
+    float: left;
+    width: 88px;
+    height: 50px;   
+    margin-right: 0px;    
+}
+
+#butterfly-kisses {margin-top: 7px; display: inline-block;}
+#berry-blues {margin-top: 7px; display: inline-block;}
+#soft-focus-forest {margin-top: 7px; display: inline-block;}
+#up-shore {margin-top: 7px; display: inline-block;}
+
+#berry-blues ul {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#berry-blues ul li {
+    float: left;
+    width: 88px;
+    height: 50px;   
+    margin-right: 0px;    
+}
+
+#soft-focus-forest ul {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#soft-focus-forest ul li {
+    float: left;
+    width: 88px;
+    height: 50px;   
+    margin-right: 0px;    
+}
+
+#up-shore ul {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#up-shore ul li {
+    float: left;
+    width: 88px;
+    height: 50px;   
+    margin-right: 0px;    
+}
+#btn {    
+    margin-left: 60px;
+    width: 75%;
+    height: 50px;
+    border: 1px solid red;    
+    background-color: #bbd1b3;
+    border-radius: 4px 4px 4px 4px;
 }
